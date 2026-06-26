@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    color: #111827;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    padding: 0 12px;
+}
+
+header {
+    background-color: #1a365d;
+    color: #ffffff;
+    padding: 20px 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 2.1rem; /* TEXTO GIGANTE CONFORME O PRINT */
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.news-article {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* FONTES GIGANTES E TOTALMENTE LEGIÍVEIS IGUAL AO NATIVO */
+.headline {
+    font-size: 2.4rem; /* Título enorme */
+    color: #000000;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
+}
+
+.lead {
+    font-size: 1.6rem; /* Subtítulo grande */
+    color: #374151;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.article-body p {
+    font-size: 1.55rem; /* Texto do corpo gigante acompanhando o tamanho das imagens */
+    line-height: 1.45;
+    color: #111827;
+    margin-bottom: 18px;
+}
+
+/* AJUSTE DAS IMAGENS PARA CASAREM PERFEITAMENTE COM OS TEXTOS GRANDES */
+.image-box {
+    width: 100%;
+    margin: 15px 0;
+    overflow: hidden;
+    background-color: #f3f4f6;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.advertisement {
+    width: 100%;
+    margin: 25px 0;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 15px;
+}
+
+.advertisement img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    padding: 20px 0;
+    font-size: 1.2rem;
+    color: #6b7280;
+    border-top: 1px solid #e5e7eb;
+}
